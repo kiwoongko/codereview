@@ -15,7 +15,7 @@ void popQueue(templatePriorityQueue<T>* Que){
 	cout << "[+] Integer "<< Que->top() << " will be poped from the Priority Queue." << endl;
 	Que->pop();
 }
-
+/* this is priority queue example */
 int main(int argc, char* argv[]){
 	templatePriorityQueue<int> priQueue;
 	int customNumber = 0;
